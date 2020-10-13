@@ -1,0 +1,28 @@
+
+#mazetable {
+   border: 1px solid black;
+   border-collapse: collapse;
+   width: 500px;
+   height: 500px;
+   background-image: url('images/cheese_icon.png');
+   background-repeat: no-repeat;
+   background-position: 400px 470px;
+}
+
+#mazetable td {
+   width: 10px;
+   height: 10px;
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+}
+
+#mazetable tr {
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+}
+
+.details {
+   height: 80px;
+}

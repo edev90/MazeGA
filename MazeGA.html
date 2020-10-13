@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Genetic Algorithms in Javascript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="mazemaker.js"></script>
+    <script type="text/javascript" src="mazecoords.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body onload="init()"> 
+    <center>
+    <div id="main_container">
+        <div id="status_lbl"></div>
+
+        <br />
+
+        <table id="mazetable" border="1">
+            <script type="text/javascript">
+                // build the actual maze table html
+                for(var row = 0; row < MAZE_NUMBER_OF_ROWS; row++) {
+                    document.write("<tr>");
+                    for(var col = 0; col < MAZE_NUMBER_OF_COLS; col++) {
+                        document.write("<td id='" + row + "," + col + "'></td>");
+                    }
+                    document.write("</tr>");
+                }
+                //initMazeMaker();
+            </script>
+        </table>
+        
+        <br />
+
+        <!-- Dump output from the tests -->
+        <textarea id="tests_output" class="details" rows="20" cols="50">
+        </textarea>
+        <!-- Notes for reference & when discussing things during the tutorial video-->
+     <textarea id="notes" class="details" rows="20" cols="50">
+MOVE UP:    0
+MOVE DOWN:  1
+MOVE LEFT:  2
+MOVE RIGHT: 3
+        </textarea>
+
+        <div id="mazemaker_output"></div>
+
+        <!-- Evolution Controls -->
+        <span>Skip playback animation for:</span>&nbsp;
+        <input type="text" id="skipcount" value = "0"/>
+        <input type="button" value="Skip" onclick="fastForward()"/>
+        <br />
+        <input type="button" onclick="restartEvolution()" value="Start/Restart"/>
+        <br />
+        <input type="button" onclick="refresh()" value="Refresh -- don't start"/>
+		<br />
+		<input type="button" id="Toggle_Pause_Play" onclick="togglePausePlay()" value="Pause Playback"/>
+		
+    </div> 
+    </center>
+</body>
+</html>
