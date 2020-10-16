@@ -13,7 +13,6 @@ Tested in the following browsers:
     - Safari (works)
     - Internet Edge (doesn't work)
 
-    Screenshots:
+Screenshots:
 
-    ![Preview of MazeGA interface](https://github.com/edev90/MazeGA/blob/main/images/MazeGA_Screenshot.png)
-  
+![Preview of MazeGA interface](https://github.com/edev90/MazeGA/blob/main/images/MazeGA_Screenshot.png)
