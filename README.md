@@ -11,7 +11,7 @@ Tested in the following browsers:
     - Chrome (works)
     - FireFox (works)
     - Safari (works)
-    - Internet Edge (doesn't work)
+    - Microsoft Edge (doesn't work)
 
 Screenshots:
 
