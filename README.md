@@ -4,7 +4,7 @@ A javascript/html app that illustrates the evolution of genetic algorithms throu
 
 For each generation, X amount of individuals are generated and then then the fittest individual from the current generation is played back on the maze. You can speed the evolution up by entering the # of generations in the "Skip playback animation for: " box and pressing "Skip". Note that this does not actually skip past building any of the generations, only the animations at the end of each generation. Animations can be paused as well.
 
-There isn't a built-in feature for this, but with a little tweaking you can make your own map for the maze. You'll have to comment out the initMazeMaker(); line in MazeGA.html within the script tags in the body tag. This will add the maze making functionality to the page. Set mazeCoords to an empty array in mazecoords.js if you don't want any of the default maze coordinates to be included in your new ones. Click cells inside the maze table and the coordinates will be The coords dumped at the bottom of the screen should be copied over to the mazecoords.js file when finished. 
+There isn't a built-in feature for this, but with a little tweaking you can make your own map for the maze. You'll have to un-comment the initMazeMaker(); line in MazeGA.html within the script tags in the body tag. This will add the maze making functionality to the page. Set mazeCoords to an empty array in mazecoords.js if you don't want any of the default maze coordinates to be included in your new ones. Click cells inside the maze table and the coordinates will be The coords dumped at the bottom of the screen should be copied over to the mazecoords.js file when finished. 
 
 Tested in the following browsers:
 
